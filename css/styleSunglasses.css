@@ -6,6 +6,7 @@ body {
 	margin:20px;
 	background-color:#1B6DE0;
 	width:200px;
+	position:relative;
 	}
 	
 .browse-by {
@@ -16,7 +17,13 @@ body {
 .categories {
 	background-color:#B8B8B8;
 	padding-top:1px;
-	margin:1px;
+	padding-bottom:1px;
+	margin-left:2px;
+	margin-right:2px;
+	position:float;
+	outline-style:solid;
+	outline-color:#858585;
+	outline-width:thin;
 	}
 	
 .categories-list {
@@ -25,12 +32,19 @@ body {
 	padding-bottom:5px;
 	padding-left:10px;
 	font-size:80%;
+	margin-bottom:0px;
 	}
 	
 .gender {
 	background-color:#B8B8B8;
 	padding-top:1px;
-	margin:1px;
+	margin-left:2px;
+	margin-right:2px;
+	position:relative;
+	margin-bottom:0px;
+	outline-style:solid;
+	outline-color:#858585;
+	outline-width:thin;
 	}
 	
 .gender-list {
@@ -39,12 +53,103 @@ body {
 	padding-bottom:5px;
 	padding-left:10px;
 	font-size:80%;
+	margin-bottom:0px;
 	}
 	
 .gender .gender-list .male {
 	color:#1B6DE0;
 	}
 	
+.brand {
+	background-color:#B8B8B8;
+	padding-top:1px;
+	padding-bottom:1px;
+	margin-left:2px;
+	margin-right:2px;
+	position:relative;
+	margin-bottom:0px;
+	outline-style:solid;
+	outline-color:#858585;
+	outline-width:thin;
+	}
+	
+.frame {
+	background-color:#B8B8B8;
+	padding-top:1px;
+	padding-bottom:1px;
+	margin-left:2px;
+	margin-right:2px;
+	position:relative;
+	margin-bottom:0px;
+	outline-style:solid;
+	outline-color:#858585;
+	outline-width:thin;
+	}
+	
+.material {
+	background-color:#B8B8B8;
+	padding-top:1px;
+	padding-bottom:1px;
+	margin-left:2px;
+	margin-right:2px;
+	position:relative;
+	margin-bottom:0px;
+	outline-style:solid;
+	outline-color:#858585;
+	outline-width:thin;
+	}
+	
+.size {
+	background-color:#B8B8B8;
+	padding-top:1px;
+	padding-bottom:1px;
+	margin-left:2px;
+	margin-right:2px;
+	position:relative;
+	margin-bottom:0px;
+	outline-style:solid;
+	outline-color:#858585;
+	outline-width:thin;
+	}
+	
+.style {
+	background-color:#B8B8B8;
+	padding-top:1px;
+	padding-bottom:1px;
+	margin-left:2px;
+	margin-right:2px;
+	position:relative;
+	margin-bottom:0px;
+	outline-style:solid;
+	outline-color:#858585;
+	outline-width:thin;
+	}
+	
+.price-range {
+	background-color:#B8B8B8;
+	padding-top:1px;
+	padding-bottom:1px;
+	margin-left:2px;
+	margin-right:2px;
+	position:relative;
+	margin-bottom:0px;
+	outline-style:solid;
+	outline-color:#858585;
+	outline-width:thin;
+	}
+	
+.search {
+	position:absolute;
+	top:50px;
+	right:30px;
+	width:400px;
+	}
+.searchbar {
+	outline-style:solid;
+	outline-color:#BFBFBF;
+	height:30px;
+	}
+		
 ul {
 	list-style: none;
 	}
