@@ -1,0 +1,62 @@
+body {
+	font-family:Helvetica, sans-serif;
+	}
+
+.browse-by-menu {
+	margin:20px;
+	background-color:#1B6DE0;
+	width:200px;
+	}
+	
+.browse-by {
+	color:#F2F2F2;
+	padding: 1px 5px;
+	}
+	
+.categories {
+	background-color:#B8B8B8;
+	padding-top:1px;
+	margin:1px;
+	}
+	
+.categories-list {
+	background-color:#E8E8E8;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:10px;
+	font-size:80%;
+	}
+	
+.gender {
+	background-color:#B8B8B8;
+	padding-top:1px;
+	margin:1px;
+	}
+	
+.gender-list {
+	background-color:#E8E8E8;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:10px;
+	font-size:80%;
+	}
+	
+.gender .gender-list .male {
+	color:#1B6DE0;
+	}
+	
+ul {
+	list-style: none;
+	}
+	
+a {
+	text-decoration:none;
+	}
+
+a:link {
+	color:#BFBFBF;
+	}
+	
+a:visited {
+	color:#3B3B3B;
+	}
