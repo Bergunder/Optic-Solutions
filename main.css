@@ -1,0 +1,29 @@
+/* Imports */
+@import url("reset.css");
+
+@font-face {
+		font-family: 'Avenir';
+		font-weight: 'light';
+		src: url('fonts/AvenirLight.otf');
+}
+@font-face {
+		font-family: 'Avenir';
+		font-weight: bold;
+		src: url('fonts/AvenirBold.otf');
+}
+
+@font-face {
+		font-family: 'Avenir';
+		font-weight: 'heavy';
+		src: url('fonts/AvenirHeavy.otf');
+}
+
+@font-face {
+		font-family: 'Proxima Nova';
+		font-weight: 'regular';
+		src: url('fonts/ProximaNovaRegular.otf');
+}
+@font-face {
+		font-family: 'Proxima Nova';
+		font-weight: bold;
+		src: url('fonts/ProximaNovaBold.otf');
