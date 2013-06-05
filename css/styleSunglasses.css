@@ -1,5 +1,6 @@
 body {
 	font-family:Helvetica, sans-serif;
+	overflow-x:hidden;
 	}
 
 .browse-by-menu {
@@ -139,8 +140,8 @@ body {
 	}
 	
 .search {
-	top:50px;
-	right:30px;
+	top:10px;
+	right:250px;
 	width:400px;
 	position:absolute;
 	}
@@ -160,6 +161,60 @@ body {
 	padding-right:5px;
 	width:10%;
 	left:355px;
+	}
+	
+.glasses {
+	position:absolute;
+	top:100px;
+	left:300px;
+	}
+
+.letter-list1 {
+	background-color:#E8E8E8;
+	}
+	
+.letter-list2 {
+	background-color:#E8E8E8;
+	position:relative;
+	top:-15px;
+	}
+	
+.letter-list3 {
+	background-color:#E8E8E8;
+	position:relative;
+	top:-30px;
+	}
+	
+.letter-list4 {
+	background-color:#E8E8E8;
+	position:relative;
+	top:-45px;
+	}
+
+.letter-list1 li {
+	display:inline;
+	}
+	
+.letter-list2 li {
+	display:inline;
+	}
+	
+.letter-list3 li {
+	display:inline;
+	}
+	
+.letter-list4 li {
+	display:inline;
+	}
+	
+.page-changer {
+	position:relative;
+	bottom:10%;
+	left:50%;
+	}
+	
+.page-numbers li {
+	display:inline;
 	}
 		
 ul {
