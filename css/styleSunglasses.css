@@ -146,7 +146,7 @@ body {
 	width:30%;
 	position:absolute;
 	}
-	
+
 .searchbar {
 	outline-style:solid;
 	outline-color:#BFBFBF;
@@ -154,10 +154,8 @@ body {
 	}
 	
 .go-button .go {
-	text-align:right;
-	padding:15px 3px;
-	-moz-margin:15px 3px;
-	-webkit-margin:15px 3px;
+	bottom:0px;
+	color:#F2F2F2;
 	}	
 
 .go-button {
@@ -169,8 +167,6 @@ body {
 	width:10%;
 	left:89%;
 	}
-	
-
 	
 .glasses {
 	position:absolute;
@@ -198,8 +194,17 @@ body {
 	background-color:#E8E8E8;
 	position:relative;
 	top:-45px;
+	margin-bottom:0px;
 	}
 
+.brand-name-list {
+	background-color:#E8E8E8;
+	position:relative;
+	top:-30px;
+	margin-top:0px;
+	margin-bottom:0px;
+	}
+	
 .letter-list1 li {
 	display:inline;
 	}
@@ -223,6 +228,10 @@ body {
 	}
 	
 .page-numbers li {
+	display:inline;
+	}
+	
+nav li {
 	display:inline;
 	}
 		
