@@ -1,0 +1,268 @@
+body {
+	font-family:Helvetica, sans-serif;
+	overflow-x:hidden;
+	font-size:90%;
+	}
+
+.browse-by-menu {
+	margin:20px;
+	background-color:#1B6DE0;
+	width:200px;
+	position:relative;
+	}
+	
+.browse-by {
+	color:#F2F2F2;
+	padding: 1px 5px;
+	}
+	
+.categories {
+	background-color:#B8B8B8;
+	padding-top:1px;
+	padding-bottom:1px;
+	margin-left:2px;
+	margin-right:2px;
+	position:float;
+	outline-style:solid;
+	outline-color:#858585;
+	outline-width:thin;
+	}
+	
+.categories-list {
+	background-color:#E8E8E8;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:10px;
+	font-size:80%;
+	margin-bottom:0px;
+	}
+	
+.gender {
+	background-color:#B8B8B8;
+	padding-top:1px;
+	margin-left:2px;
+	margin-right:2px;
+	position:relative;
+	margin-bottom:0px;
+	outline-style:solid;
+	outline-color:#858585;
+	outline-width:thin;
+	}
+	
+.gender-list {
+	background-color:#E8E8E8;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:10px;
+	font-size:80%;
+	margin-bottom:0px;
+	}
+	
+.brand {
+	background-color:#B8B8B8;
+	padding-top:1px;
+	padding-bottom:1px;
+	margin-left:2px;
+	margin-right:2px;
+	position:relative;
+	margin-bottom:0px;
+	outline-style:solid;
+	outline-color:#858585;
+	outline-width:thin;
+	}
+	
+.brand-name-list {
+	overflow-y:scroll;
+	height:80px;
+	}
+	
+.frame {
+	background-color:#B8B8B8;
+	padding-top:1px;
+	padding-bottom:1px;
+	margin-left:2px;
+	margin-right:2px;
+	position:relative;
+	margin-bottom:0px;
+	outline-style:solid;
+	outline-color:#858585;
+	outline-width:thin;
+	}
+	
+.material {
+	background-color:#B8B8B8;
+	padding-top:1px;
+	padding-bottom:1px;
+	margin-left:2px;
+	margin-right:2px;
+	position:relative;
+	margin-bottom:0px;
+	outline-style:solid;
+	outline-color:#858585;
+	outline-width:thin;
+	}
+	
+.size {
+	background-color:#B8B8B8;
+	padding-top:1px;
+	padding-bottom:1px;
+	margin-left:2px;
+	margin-right:2px;
+	position:relative;
+	margin-bottom:0px;
+	outline-style:solid;
+	outline-color:#858585;
+	outline-width:thin;
+	}
+	
+.glass-style {
+	background-color:#B8B8B8;
+	padding-top:1px;
+	padding-bottom:1px;
+	margin-left:2px;
+	margin-right:2px;
+	position:relative;
+	margin-bottom:0px;
+	outline-style:solid;
+	outline-color:#858585;
+	outline-width:thin;
+	}
+	
+.price-range {
+	background-color:#B8B8B8;
+	padding-top:1px;
+	padding-bottom:1px;
+	margin-left:2px;
+	margin-right:2px;
+	position:relative;
+	margin-bottom:0px;
+	outline-style:solid;
+	outline-color:#858585;
+	outline-width:thin;
+	}
+	
+.search {
+	top:250px;
+	right:20%;
+	width:30%;
+	position:absolute;
+	}
+
+.searchbar {
+	outline-style:solid;
+	outline-color:#BFBFBF;
+	background-color:white;
+	height:30px;
+	}
+	
+.go-button .go {
+	bottom:0px;
+	color:#F2F2F2;
+	}	
+
+.go-button {
+	background-color:#BFBFBF;
+	color:#F2F2F2;
+	height:100%;
+	position:relative;
+	padding-right:5px;
+	width:10%;
+	left:89%;
+	}
+	
+.glasses {
+	position:absolute;
+	top:300px;
+	left:300px;
+	}
+
+.letter-list1 {
+	background-color:#E8E8E8;
+	}
+	
+.letter-list2 {
+	background-color:#E8E8E8;
+	position:relative;
+	top:-15px;
+	}
+	
+.letter-list3 {
+	background-color:#E8E8E8;
+	position:relative;
+	top:-30px;
+	}
+	
+.letter-list4 {
+	background-color:#E8E8E8;
+	position:relative;
+	top:-45px;
+	margin-bottom:0px;
+	}
+
+.brand-name-list {
+	background-color:#E8E8E8;
+	position:relative;
+	top:-30px;
+	margin-top:0px;
+	margin-bottom:0px;
+	}
+	
+.letter-list1 li {
+	display:inline;
+	}
+	
+.letter-list2 li {
+	display:inline;
+	}
+	
+.letter-list3 li {
+	display:inline;
+	}
+	
+.letter-list4 li {
+	display:inline;
+	}
+	
+.page-changer {
+	position:relative;
+	bottom:10%;
+	left:50%;
+	}
+	
+.page-numbers li {
+	display:inline;
+	}
+
+nav li {
+	display:inline;
+	padding-left:4%;
+	padding-right:4%;
+	}
+	
+nav {
+	text-align:center;
+	background-color:#E8E8E8;
+	height:70px;
+	margin-bottom:10px;
+	padding-top:10px;
+	}
+		
+ul {
+	list-style: none;
+	}
+	
+a {
+	text-decoration:none;
+	}
+
+a:link {
+	color:#000;
+	}
+	
+a:visited {
+	color:#3B3B3B;
+	}
+	
+a:hover {
+	color:#1B6DE0;
+	}
