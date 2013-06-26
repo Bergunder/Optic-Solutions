@@ -1,6 +1,6 @@
 <DOCTYPE! html>
 <html>
-<title>Optic Solutions Sunglasses</title>
+<title>Optic Solutions New Arrivals</title>
 
 <!-- <link rel="stylesheet" href="css/main.css" type="text/css" /> --!>
 <!-- <link rel="stylesheet" href="css/styleSunglasses.css" type="text/css" /> --!>
@@ -10,6 +10,19 @@
 <link rel="stylesheet" media="screen and (min-device-width: 480px) and (max-width: 768px)" href="css/480sunglasses.css" type="text/css" />
 	
 	<head>
+		<script>
+			var moneyNum = 0;
+			var itemsNum = 0;
+						
+			function itemPlus() {
+				itemsNum += 1;
+				document.getElementById("items").innerHTML = itemsNum;
+				
+				moneyNum += Math.floor(Math.random()*130);
+				document.getElementById("money").innerHTML = moneyNum;
+				}
+		</script>
+	
 	</head>
 
 	<body>
@@ -24,8 +37,10 @@
 				<li id="shopping-menu"><a class="shopping-cart" href="#">Shopping Cart</a>
 					<ul class="cart-dropdown">
 						<li>Cart</li>
-						<img class="cart-icon" src="shopping-cart-icon.png" alt="shoppingCart" />
-						<li id="checkout-button"><a href="#">Checkout</a></li>
+						<li>Items: <p id="items"></p></li>
+						<br>
+						<li>Total: $<p id="money"></p>
+						<li id="checkout-button"><a class="button cart">Shopping Cart</a></li>
 					</ul>
 				</li>
 			</ul>
@@ -143,28 +158,41 @@
 		</div> <!--closes search--!>
 		
 		<div class="browse-male-armani">
-			<img class="glasses" src="images/glasses.jpg" width="40%" alt="glasses" />
-			<!-- <div class="Armani-Exchange-147-0HFL-Dark-Brown">
-				<a href="#">Armani Exchange 147 0HFL Dark Brown</a>
+			<div class="armani Armani-Exchange-147-0HFL-Dark-Brown" style="width:150px; font-size:80%; text-align:center;">
+				<a href="#" onclick="itemPlus()">
+				<img class="num1" style="padding-bottom:0.5em;" src="images/glasses/armani1.png" alt="Armani Exchange 147 0HFL Dark Brown" />
+				Armani Exchange 147 0HFL Dark Brown <br> <h1>$129</h1></a>
 			</div>
-			<div class="Armani-Exchange-154-0GND-Blue-Turquoise-Crystal">
-				<a href="#">Armani Exchange 154 0GND Blue Turquoise Crystal</a>
+			<div class="armani Armani-Exchange-154-0GND-Blue-Turquoise-Crystal" style="width:150px; font-size:80%; text-align:center;">
+				<a href="#" onclick="itemPlus()">
+				<img class="num2" style="padding-bottom:0.5em;" src="images/glasses/armani2.png" alt="Armani Exchange 154 0GND Blue Turquoise Crystal" />				
+				Armani Exchange 154 0GND Blue Turquoise <br> <h1>$129</h1></a>
 			</div>
-			<div class="Armani-Exchange-164-0YPT-Black-Crystal">
-				<a href="#">Armani Exchange 146 0YPT Black Crystal</a>
+			<div class="armani Armani-Exchange-164-0YPT-Black-Crystal" style="width:150px; font-size:80%; text-align:center;">
+				<a href="#" onclick="itemPlus()">
+				<img class="num3" style="padding-bottom:0.5em;" src="images/glasses/armani3.png" alt="Armani Exchange 146 0YPT Black Crystal" />
+				Armani Exchange 146 0YPT Black Crystal <br> <h1>$129</h1></a>
 			</div>
-			<div class="Armani-Exchange-153-0BGP-Matte-Blue">
-				<a href="#">Armani Exchange 153 0BGP Matte Blue</a>
+			<div class="armani Armani-Exchange-153-0BGP-Matte-Blue" style="width:150px; font-size:80%; text-align:center;">
+				<a href="#" onclick="itemPlus()">
+				<img class="num4" style="padding-bottom:0.5em;" src="images/glasses/armani4.png" alt="Armani Exchange 153 0BGP Matte Blue" />
+				Armani Exchange 153 0BGP Matte Blue <br> <h1>$129</h1></a>
 			</div>
-			<div class="Armani-Exchange-157-0GN5-Semi-Matte-Brown">
-				<a href="#">Armani Exchange 157 0GN5 Semi Matte Brown</a>
+			<div class="armani Armani-Exchange-157-0GN5-Semi-Matte-Brown" style="width:150px; font-size:80%; text-align:center;">
+				<a href="#" onclick="itemPlus()">
+				<img class="num5" style="padding-bottom:0.5em;" src="images/glasses/armani5.png" alt="Armani Exchange 157 0GN5 Semi Matte Brown" />
+				Armani Exchange 157 0GN5 Semi Matte Brown <br> <h1>$129</h1></a>
 			</div>
-			<div class="Armani-Exchange-149-0EFV-Olive-Havana">
-				<a href="#">Armani Exchange 149 0EFV Olive Havana</a>
+			<div class="armani Armani-Exchange-149-0EFV-Olive-Havana" style="width:150px; font-size:80%; text-align:center;">
+				<a href="#" onclick="itemPlus()">
+				<img class="num6" style="padding-bottom:0.5em;" src="images/glasses/armani6.png" alt="Armani Exchange 149 0EFV Olive Havana" />
+				Armani Exchange 149 0EFV Olive Havana <br> <h1>$119</h1></a>
 			</div>
-			<div class="Armani-Exchange-152-086L-Brown">
-				<a href="#">Armani Exchange 152 086L Brown</a>
-			</div> --!>
+			<div class="armani Armani-Exchange-152-086L-Brown" style="width:150px; font-size:80%; text-align:center;">
+				<a href="#" onclick="itemPlus()">
+				<img class="num7" style="padding-bottom:0.5em;" src="images/glasses/armani7.png" alt="Armani Exchange 152 086L Brown" />
+				Armani Exchange 152 086L Brown <br> <h1>$129</h1></a>
+			</div>
 		</div> <!--closes browse-male-armani--!>
 		
 		<div class="page-changer">

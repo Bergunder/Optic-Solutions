@@ -3,6 +3,10 @@ body {
 	overflow-x:hidden;
 	font-size:90%;
 	}
+	
+h1 {
+	font-size:130%;
+	}
 
 .browse-by-menu {
 	margin:20px;
@@ -170,10 +174,17 @@ body {
 	left:89%;
 	}
 	
-.glasses {
+.browse-male-armani {
 	position:absolute;
 	top:300px;
 	left:300px;
+	width:50%;
+	text-align:center;
+	}
+	
+.armani {
+	float:left;
+	margin:5px;
 	}
 
 .letter-list1 {
@@ -250,21 +261,55 @@ nav {
 .cart-dropdown{
 	height:0px;
 	position:absolute;
-	left:83%;
+	left:80%;
 	overflow:hidden;
-	text-align:center;
 	-webkit-transition-duration:0.3s;
+	clear:both;
 	}
 
 #shopping-menu:hover .cart-dropdown{
-	width:75px;
+	width:175px;
 	position:absolute;
-	left:83%;
+	left:78%;
 	height:100px;
 	background-color:#E8E8E8;
+	text-align:center;
 	outline-style:solid;
 	outline-color:#BFBFBF;
+	clear:both;
 	}  
+	
+a.button {
+	background-color:#F0A61D;
+	border: 1px solid #777;
+	border-color: rgba(0,0,0,0.2);
+	border-bottom-color: #333;
+	border-bottom-color: rgba(0,0,0,0.4);
+	color: #fff;
+	-moz-box-shadow: inset 0 0.08em 0 rgba(255,255,255,0.4), inset 0 0 0.1em rgba(255,255,255,0.9);
+	-webkit-box-shadow: inset 0 0.08em 0 rgba(255,255,255,0.4), inset 0 0 0.1em rgba(255,255,255,0.9);
+	box-shadow: inset 0 0.08em 0 rgba(255,255,255,0.4), inset 0 0 0.1em rgba(255,255,255,0.9);
+	cursor: pointer;
+	display: inline-block;
+	font: bold 100%/2.1 "Lucida Grande", Tahoma, sans-serif;
+	padding: 0 .95em 0 0;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: 0 1px 0 rgba(0,0,0,0.5);
+	/*white-space: nowrap;*/
+
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+
+	position: relative;
+	
+	top:35px;
+
+	-moz-border-radius: .3em;
+	-webkit-border-radius: .3em;
+	border-radius: .3em;
+}
 		
 ul {
 	list-style: none;
