@@ -1,15 +1,16 @@
 /* Imports */
 @import url("reset.css");
 
+/* Fonts */
 @font-face {
 		font-family: 'Avenir';
 		font-weight: 'light';
-		src: url('fonts/AvenirLight.otf');
+		src: url('fonts/AvenirLTStd-Light.otf');
 }
 @font-face {
 		font-family: 'Avenir';
-		font-weight: bold;
-		src: url('fonts/AvenirBold.otf');
+		font-weight: 'medium';
+		src: url('fonts/AvenirLTStd-Medium.otf');
 }
 
 @font-face {
@@ -27,3 +28,104 @@
 		font-family: 'Proxima Nova';
 		font-weight: bold;
 		src: url('fonts/ProximaNovaBold.otf');
+}
+
+/*Basics*/
+
+/* This centers the site into a 800px width page */
+div.wrapper {
+width: 800px;
+height: auto;
+margin: 0px auto;
+box-shadow: 0px 0px 25px rgb(162,162,162);
+}
+
+/* Defines the overall properties of the website */
+body {
+width: 100%;
+height: 100%;
+color: #fff;
+font-family: 'Proxima Nova', Helvetica, Arial, sans-serif;
+font-weight: 'regular';
+margin: 0;
+padding: 0;
+text-align: left;
+}
+
+/* Navigation Bar */
+#banner {
+	width: 800px;
+	height: 42px;
+	background: #e6e6e6;
+	position: relative;
+	top: 121px;
+}
+#header-main {
+	position: relative;
+	}
+
+#header-title {
+	font-family: 'Avenir';
+	font-weight: 'light';
+	color: #0071bc;
+	font-size: 33px;
+	position: relative;
+	left: 55px;
+	top: 85px;
+	margin: 0 auto;
+}
+
+#header-subtitle {
+	font-family: 'Avenir';
+	font-weight: 'medium';
+	color: #666;
+	font-size: 12px;
+	position: relative;
+	top: 77px;
+	left: 58px;
+}
+
+#header-skyline {
+	position: absolute;
+	top: 0;
+}
+
+#header-main nav {
+background: none;
+position: relative;
+font-size: 11.7px;
+height: 0px;
+color: #7e858c;
+line-height: 16px;
+left: -5px;
+margin: 0 0 0em 0px;
+padding: 14px;
+text-align: left;
+}
+
+#header-main nav ul {
+list-style-type: none;
+margin: 0px auto;
+width: 800px;
+overflow:hidden;
+}
+
+#header-main nav li {float: left; display: inline; margin: 0;}
+
+#header-main nav a:link, #banner nav a:visited {
+text-shadow: 0px 0px;
+color: #808080;
+display: block;
+height: 42px;
+width: 120px;
+padding: -30px;
+text-decoration: none;
+text-align: center;
+text-transform: uppercase;
+}
+
+#header-main nav a:hover, #banner nav a:active,
+#header-main nav .active a:link, #banner nav .active a:visited {
+color: #1C75BC;
+text-shadow: none !important;
+}
