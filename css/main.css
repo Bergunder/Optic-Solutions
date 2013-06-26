@@ -52,13 +52,6 @@ padding: 0;
 text-align: left;
 }
 
-/* Navigation Bar */
-#banner {
-	width: 800px;
-	height: 42px;
-	background: #e6e6e6;
-	position: relative;
-	top: 121px;
 }
 #header-main {
 	position: relative;
@@ -90,42 +83,154 @@ text-align: left;
 	top: 0;
 }
 
-#header-main nav {
-background: none;
+div.header-wrap {
 position: relative;
-font-size: 11.7px;
-height: 0px;
-color: #7e858c;
-line-height: 16px;
-left: -5px;
-margin: 0 0 0em 0px;
-padding: 14px;
-text-align: left;
-}
-
-#header-main nav ul {
-list-style-type: none;
+top: 50%;
+width: 100%;
 margin: 0px auto;
-width: 800px;
-overflow:hidden;
 }
 
-#header-main nav li {float: left; display: inline; margin: 0;}
+/* NAVIGATION */
 
-#header-main nav a:link, #banner nav a:visited {
-text-shadow: 0px 0px;
-color: #808080;
-display: block;
-height: 42px;
-width: 120px;
-padding: -30px;
-text-decoration: none;
-text-align: center;
-text-transform: uppercase;
+/* Clearfix */
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
 }
 
-#header-main nav a:hover, #banner nav a:active,
-#header-main nav .active a:link, #banner nav .active a:visited {
-color: #1C75BC;
-text-shadow: none !important;
+nav {
+	height: 42px;
+	width: 100%;
+	background: #e6e6e6;
+	font-size: 10pt;
+	font-family: 'Avenir';
+	font-weight: 'medium';
+	position: relative;
+	color: #7e858c;
+}
+
+nav ul {
+	padding: 0;
+	margin: 0 auto;
+	width: 800px;
+	height: 40px;
+}
+
+nav li {
+	display: inline;
+	float: left;
+}
+
+nav a:link, #banner nav a:visited {
+	color: #808080;
+	display: inline-block;
+	width: 133px;
+	text-align: center;
+	text-decoration: none;
+	line-height: 42px;
+}
+
+/*
+nav li a {
+	border-right: 1px solid #576979;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+*/
+
+nav li:last-child a {
+	border-right: 0;
+}
+nav a:hover, nav a:active {
+	background-color: none;
+}
+nav a#pull {
+	display: none;
+}
+
+/*Styles for screen 600px and lower*/
+@media screen and (max-width: 600px) {
+	nav { 
+  		height: auto;
+  	}
+  	
+  	nav ul {
+  		width: 100%;
+  		display: block;
+  		height: auto;
+  	}
+  	
+  	nav li {
+  		width: 50%;
+  		float: left;
+  		position: relative;
+  	}
+/*
+  	nav li a {
+		border-bottom: 1px solid #576979;
+		border-right: 1px solid #576979;
+	}
+*/
+  	nav a {
+	  	text-align: left;
+	  	width: 100%;
+	  	text-indent: 25px;
+  	}
+}
+
+/*Styles for screen 515px and lower*/
+@media only screen and (max-width : 480px) {
+	nav {
+		border-bottom: 0;
+	}
+	nav ul {
+		display: none;
+		height: auto;
+	}
+	nav a#pull {
+		display: block;
+		background-color: #e6e6e6;
+		width: 100%;
+		position: relative;
+	}
+	nav a#pull:after {
+		content:"";
+		background: url('nav-icon.png') no-repeat;
+		width: 30px;
+		height: 30px;
+		display: inline-block;
+		position: absolute;
+		right: 15px;
+		top: 10px;
+	}
+}
+
+/*Smartphone*/
+@media only screen and (max-width : 320px) {
+	nav li {
+		display: block;
+		float: none;
+		width: 100%;
+	}
+/*
+	nav li a {
+		border-bottom: 1px solid #576979;
+	}
+*/
+}
+/* /////////////////////////////////////////////////// */
+
+/* Body */
+#body-street {
+	position: relative;
+	margin: 0px auto;
+	width: 800px;
 }
