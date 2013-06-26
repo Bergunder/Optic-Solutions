@@ -246,6 +246,25 @@ nav {
 	margin-bottom:10px;
 	padding-top:10px;
 	}
+	
+.cart-dropdown{
+	height:0px;
+	position:absolute;
+	left:83%;
+	overflow:hidden;
+	text-align:center;
+	-webkit-transition-duration:0.3s;
+	}
+
+#shopping-menu:hover .cart-dropdown{
+	width:75px;
+	position:absolute;
+	left:83%;
+	height:100px;
+	background-color:#E8E8E8;
+	outline-style:solid;
+	outline-color:#BFBFBF;
+	}  
 		
 ul {
 	list-style: none;

@@ -8,6 +8,7 @@
 <link rel="stylesheet" media="screen and (min-device-width: 901px)" href="css/1024sunglasses.css" type="text/css" />
 <link rel="stylesheet" media="screen and (min-device-width: 769px) and (max-width: 900px)" href="css/769sunglasses.css" type="text/css" />
 <link rel="stylesheet" media="screen and (min-device-width: 480px) and (max-width: 768px)" href="css/480sunglasses.css" type="text/css" />
+	
 	<head>
 	</head>
 
@@ -20,7 +21,13 @@
 				<li><a class="wearing-glasses" href="#">Glasses</a></li>
 				<li><a class="our-company" href="#">Our Company</a></li>
 				<li><a class="contact-us" href="#">Contact Us</a></li>
-				<li><a class="shopping-cart" href="#">Shopping Cart</a></li>
+				<li id="shopping-menu"><a class="shopping-cart" href="#">Shopping Cart</a>
+					<ul class="cart-dropdown">
+						<li>Cart</li>
+						<img class="cart-icon" src="shopping-cart-icon.png" alt="shoppingCart" />
+						<li id="checkout-button"><a href="#">Checkout</a></li>
+					</ul>
+				</li>
 			</ul>
 		</nav>
 		<div class="browse-by-menu">
