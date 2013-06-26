@@ -82,19 +82,14 @@ div.content {
 div.promo {
 	position: relative;
 	top: 121px;
-}
-
-#promo-text-header {
-	position: relative;
-	top: -335px;
-	left: 4%;
-	text-shadow: 2px 2px #a5730e;
+	width: 100%;
 }
 
 div.body-street {
 	position: relative;
 	left: 15%;
 	top: 250px;
+	width: 100%;
 }
 
 }
@@ -110,7 +105,6 @@ div.body-street {
 	position: relative;
 	left: 55px;
 	top: 85px;
-	margin: 0 auto;
 }
 
 #header-subtitle {
@@ -182,15 +176,6 @@ nav a:link, #banner nav a:visited {
 	line-height: 42px;
 }
 
-/*
-nav li a {
-	border-right: 1px solid #576979;
-	box-sizing:border-box;
-	-moz-box-sizing:border-box;
-	-webkit-box-sizing:border-box;
-}
-*/
-
 nav li:last-child a {
 	border-right: 0;
 }
@@ -203,6 +188,27 @@ nav a#pull {
 
 /*Styles for screen 600px and lower*/
 @media screen and (max-width: 600px) {
+	div.wrapper {
+		width: 600px;
+		height: 1296px;
+		margin: 0px auto;
+	}
+
+	#header-skyline {
+		position: absolute;
+		top: 0;
+		width: 600px;
+		overflow: hidden;
+	}
+	
+	#header-title {
+		width: 600px;
+	}
+	
+	#header-subtitle {
+		width: 600px;
+	}
+
 	nav { 
   		height: auto;
   	}
@@ -218,21 +224,57 @@ nav a#pull {
   		float: left;
   		position: relative;
   	}
-/*
-  	nav li a {
-		border-bottom: 1px solid #576979;
-		border-right: 1px solid #576979;
-	}
-*/
+
   	nav a {
 	  	text-align: center;
 	  	width: 100%;
 	  	text-indent: 30	px;
   	}
+
+	div.promo {
+		float: left;
+		width: 600px;
+		position: relative;
+	}
+
+  	div.body-street {
+		position: relative;
+		float: left;
+		width: 600px;
+		left: 15px;
+		top: 200px;
+	}
+	
+	div.content {
+		position: relative;
+		left: -10px;
+		top: 260px;
+		width: 450px;
+	}
+	
+	#footer {
+		position: relative;
+		top: 200px;
+		width: 600px;
+	}
+
 }
 
 /*Styles for screen 515px and lower*/
 @media only screen and (max-width : 480px) {
+	div.wrapper {
+		width: 480px;
+		height: 1296px;
+		margin: 0px auto;
+	}
+
+	#header-skyline {
+		position: absolute;
+		top: 0;
+		width: 480px;
+	}
+
+
 	nav {
 		border-bottom: 0;
 	}
@@ -244,7 +286,7 @@ nav a#pull {
 	nav a#pull {
 		display: block;
 		background-color: #e6e6e6;
-		width: 25%;
+		width: 50%;
 		font-family: 'Avenir';
 		font-weight: 'medium';
 		font-size: 15px;
@@ -265,6 +307,33 @@ nav a#pull {
 		top: 10px;
 		padding: 0 0 0 20px;
 	}
+	
+		div.promo {
+		float: left;
+		width: 60%;
+		position: relative;
+	}
+
+  	div.body-street {
+		position: relative;
+		float: left;
+		width: 480px;
+		left: 0px;
+		top: 200px;
+	}
+	
+	div.content {
+		position: relative;
+		left: -10px;
+		top: 260px;
+		width: 450px;
+	}
+	
+	#footer {
+		position: relative;
+		top: 200px;
+		width: 480px;
+	}
 }
 
 /*Smartphone*/
@@ -274,11 +343,8 @@ nav a#pull {
 		float: left;
 		width: 40%;
 	}
-/*
-	nav li a {
-		border-bottom: 1px solid #576979;
-	}
-*/
+
+	
 }
 nav a:hover, #banner nav a:active
 
