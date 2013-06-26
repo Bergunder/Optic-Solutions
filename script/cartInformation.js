@@ -16,3 +16,4 @@ var itemsNum = 0;
 		moneyNum += 119;
 		document.getElementById("money").innerHTML = "Total: $" + moneyNum;
 		}
+			

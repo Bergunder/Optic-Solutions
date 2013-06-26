@@ -364,7 +364,6 @@ a.button {
 	text-align: center;
 	text-decoration: none;
 	text-shadow: 0 1px 0 rgba(0,0,0,0.5);
-	/*white-space: nowrap;*/
 
 	-moz-user-select: none;
 	-webkit-user-select: none;
@@ -394,4 +393,19 @@ a:visited {
 	
 a:hover {
 	color:#1B6DE0;
+	}
+	
+.cost {
+	position:float;
+	left:50%;
+	text-align:center;
+	}
+	
+.payment-form {
+	position:absolute;
+	left:50%;
+	}
+	
+.field {
+	padding:10px;
 	}
