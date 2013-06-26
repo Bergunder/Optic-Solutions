@@ -33,7 +33,7 @@
 /*Basics*/
 
 /* Headings */
-h2 {font-size: 1.571em; color: #a19d99;}
+h2 {font-size: 34px; color: #0071bc; line-height: 35px;}
 h3 {font-family: 'Proxima Nova'; font-weight: 'regular'; font-size: 40px; color: #fbb03b;}
 h4 {font-size: 'Avenir'; font-size: 17px; line-height: 0px;}
 h5 {font-size: 1.143em}
@@ -375,4 +375,9 @@ color: inherit;
 
 a:hover {
 color: #0071bc;
+}
+
+#company {
+top: 150px;
+left: -65px;
 }
