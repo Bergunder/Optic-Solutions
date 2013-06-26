@@ -20,6 +20,16 @@ h1 {
 	padding: 1px 5px;
 	}
 	
+.title {
+	overflow:hidden;
+	}
+	
+.content {
+	height:0px;
+	overflow:auto;
+	display:none;
+	}
+	
 .categories {
 	background-color:#B8B8B8;
 	padding-top:1px;
@@ -40,6 +50,19 @@ h1 {
 	font-size:80%;
 	margin-bottom:0px;
 	}
+	
+#categories:hover .content{
+	height:inherit;
+	display:inherit;
+	height:80px;
+	overflow-y:scroll;
+	}  
+	
+#categories:hover .content .letters{
+	height:inherit;
+	display:inherit;
+	height:15px;
+	}  
 	
 .gender {
 	background-color:#B8B8B8;
@@ -75,10 +98,6 @@ h1 {
 	outline-width:thin;
 	}
 	
-.brand-name-list {
-	overflow-y:scroll;
-	height:80px;
-	}
 	
 .frame {
 	background-color:#B8B8B8;
@@ -91,6 +110,15 @@ h1 {
 	outline-style:solid;
 	outline-color:#858585;
 	outline-width:thin;
+	}
+	
+.frame-list {
+	background-color:#E8E8E8;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:10px;
+	font-size:80%;
+	margin-bottom:0px;
 	}
 	
 .material {
@@ -106,6 +134,15 @@ h1 {
 	outline-width:thin;
 	}
 	
+.material-list {
+	background-color:#E8E8E8;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:10px;
+	font-size:80%;
+	margin-bottom:0px;
+	}
+	
 .size {
 	background-color:#B8B8B8;
 	padding-top:1px;
@@ -117,6 +154,15 @@ h1 {
 	outline-style:solid;
 	outline-color:#858585;
 	outline-width:thin;
+	}
+	
+.size-list {
+	background-color:#E8E8E8;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:10px;
+	font-size:80%;
+	margin-bottom:0px;
 	}
 	
 .glass-style {
@@ -132,6 +178,15 @@ h1 {
 	outline-width:thin;
 	}
 	
+.glass-style-list {
+	background-color:#E8E8E8;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:10px;
+	font-size:80%;
+	margin-bottom:0px;
+	}
+	
 .price-range {
 	background-color:#B8B8B8;
 	padding-top:1px;
@@ -143,6 +198,15 @@ h1 {
 	outline-style:solid;
 	outline-color:#858585;
 	outline-width:thin;
+	}
+	
+.price-range-list {
+	background-color:#E8E8E8;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:10px;
+	font-size:80%;
+	margin-bottom:0px;
 	}
 	
 .search {
@@ -160,7 +224,7 @@ h1 {
 	}
 	
 .go-button .go {
-	bottom:0px;
+	bottom:50%;
 	color:#F2F2F2;
 	}	
 
@@ -168,7 +232,7 @@ h1 {
 	background-color:#BFBFBF;
 	color:#F2F2F2;
 	height:100%;
-	position:relative;
+	position:absolute;
 	padding-right:5px;
 	width:10%;
 	left:89%;
@@ -193,27 +257,23 @@ h1 {
 	
 .letter-list2 {
 	background-color:#E8E8E8;
-	position:relative;
-	top:-15px;
+	position:float;
 	}
 	
 .letter-list3 {
 	background-color:#E8E8E8;
-	position:relative;
-	top:-30px;
+	position:float;
 	}
 	
 .letter-list4 {
 	background-color:#E8E8E8;
-	position:relative;
-	top:-45px;
+	position:float;
 	margin-bottom:0px;
 	}
 
 .brand-name-list {
 	background-color:#E8E8E8;
-	position:relative;
-	top:-30px;
+	position:float;
 	margin-top:0px;
 	margin-bottom:0px;
 	}
@@ -236,7 +296,7 @@ h1 {
 	
 .page-changer {
 	position:relative;
-	bottom:10%;
+	bottom:-180px;
 	left:50%;
 	}
 	
@@ -261,23 +321,31 @@ nav {
 .cart-dropdown{
 	height:0px;
 	position:absolute;
-	left:80%;
+	left:85%;
+	top:202px;
 	overflow:hidden;
 	-webkit-transition-duration:0.3s;
-	clear:both;
 	}
 
 #shopping-menu:hover .cart-dropdown{
 	width:175px;
 	position:absolute;
-	left:78%;
-	height:100px;
+	left:80%;
+	height:200px;
 	background-color:#E8E8E8;
 	text-align:center;
 	outline-style:solid;
 	outline-color:#BFBFBF;
-	clear:both;
+	padding:0px;
 	}  
+	
+#items {
+	top:30%;
+	}
+	
+#money {
+	top:50%;
+	}
 	
 a.button {
 	background-color:#F0A61D;
@@ -301,10 +369,7 @@ a.button {
 	-moz-user-select: none;
 	-webkit-user-select: none;
 	user-select: none;
-
-	position: relative;
 	
-	top:35px;
 
 	-moz-border-radius: .3em;
 	-webkit-border-radius: .3em;
