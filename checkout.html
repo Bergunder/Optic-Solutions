@@ -2,8 +2,7 @@
 <html>
 <title>Optic Solutions Checkout</title>
 
-<!-- <link rel="stylesheet" href="css/main.css" type="text/css" /> --!>
-<!-- <link rel="stylesheet" href="css/styleSunglasses.css" type="text/css" /> --!>
+<link rel="stylesheet" href="css/company.css" type="text/css" />
 <link rel="stylesheet" href="css/normalize.css" type="text/css" />
 <link rel="stylesheet" media="screen and (min-device-width: 901px)" href="css/1024sunglasses.css" type="text/css" />
 <link rel="stylesheet" media="screen and (min-device-width: 769px) and (max-width: 900px)" href="css/769sunglasses.css" type="text/css" />
@@ -12,16 +11,18 @@
 	<head>
 		<script type="text/javascript" src="script/cartInformation.js"></script>
 	</head>
-
+	
+	<div class="wrapper">
 	<body>
+		
 		<img class="skyline" src="images/skyline.png" width="100%" alt="headerImage" />
 		<nav>
 			<ul class="main-menu">
 				<li><a class="contact-lenses" href="newarrivals.html">Contact Lenses</a></li>
 				<li><a class="wearing-sunglasses" href="newarrivals.html">Sunglasses</a></li>
 				<li><a class="wearing-glasses" href="newarrivals.html">Glasses</a></li>
-				<li><a class="our-company" href="#">Our Company</a></li>
-				<li><a class="contact-us" href="#">Contact Us</a></li>
+				<li><a class="our-company" href="company.html">Our Company</a></li>
+				<li><a class="contact-us" href="contact.html">Contact Us</a></li>
 				<li id="shopping-menu"><a class="shopping-cart" href="checkout.html">Shopping Cart</a>
 					<ul class="cart-dropdown">
 						<li>Cart</li>
@@ -96,7 +97,7 @@
 				</div>
 				<div class="expiry">
 					<label for=expires>Expiry Date</label>
-					<input id="expires" name="expires" type="text" placeholder="01/14 OR Jan 1 2014" required autofocus>
+					<input id="expires" name="expires" type="text" placeholder="01/14" required autofocus>
 				</div>
 				<div class="secNum">
 					<label for=security>Security Number</label>
@@ -107,5 +108,7 @@
 		</div> <!-- closes payment-form --!>
 		
 	</body>
-
+		<div id="footer">Copyright @ Optic Solutions 2013. All rights reserved.
+		</div>
+	</div>
 </html>
