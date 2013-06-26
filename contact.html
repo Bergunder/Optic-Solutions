@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>OPTIC SOLUTIONS - CLEAR VISION FROM THE HEART OF VANCOUVER</title>
+	
+	<link rel="stylesheet" href="normalize.css">
+	<link rel="stylesheet" href="css/company.css" type="text/css" />
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script>
+		$(function() {
+			var pull 		= $('#pull');
+				menu 		= $('nav ul');
+				menuHeight	= menu.height();
+
+			$(pull).on('click', function(e) {
+				e.preventDefault();
+				menu.slideToggle();
+			});
+
+			$(window).resize(function(){
+        		var w = $(window).width();
+        		if(w > 320 && menu.is(':hidden')) {
+        			menu.removeAttr('style');
+        		}
+    		});
+		});
+	</script>
+	
+<!--[if IE]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js">
+</script><![endif]-->
+<!--[if lte IE 7]>
+<script src="js/IE8.js" type="text/javascript">
+</script><![endif]-->
+<!--[if lt IE 7]>
+
+<link rel="stylesheet" type="text/css" media="all" href="css/ie6.css"/><![endif]-->
+</head>
+	<div class="wrapper">
+		<div id="header-main">
+			<div id="header-skyline">
+				<a href= "index.html"><img src="images/skyline01.jpg" alt="Optic Solutions - Clear Vision from the heart of Vancouver!"></a>
+			</div>
+			<div id="header-title">
+				OPTIC SOLUTIONS
+			</div>
+			<div id="header-subtitle">
+				CLEAR VISION FROM THE HEART OF VANCOUVER
+			</div>
+			<div class="header-wrap">
+				<nav class="clearfix">
+					<ul class="clearfix"> 
+						<li><a href="newarrivals.html">CONTACTS</a></li>
+						<li><a href="newarrivals.html">SUNGLASSES</a></li>
+						<li><a href="newarrivals.html">GLASSES</a></li>
+						<li><a href="company.html">OUR COMPANY</a></li>
+						<li><a href="contact.html">CONTACT US</a></li>
+						<li><a href="checkout.html">SHOPPING CART</a></li>
+					</ul>
+					<a href="#"	 id="pull">Menu</a>
+				</nav>
+			</div>
+		</div>
+		<body>
+			<div class="body">
+				<div id="company" class="content2">
+					<p><h2 id="contentTitle">Optic Solutions is Vancouver's Eyewear Store.</h2></p>
+					<br>
+					<p>Contact us by phone or email if you have any questions!</p>
+					<p>General inquiries: <h5>opticsolutions@vision.com</h5></p>
+					<p>Sales inquiries: <h5>opticsolutions@sales.com</h5></p>
+					<p>Our store hours are Monday to Saturday from 9am to 6pm.</p>
+					<p>Call us within those times at: <h5>(778) 555-5555</h5></p>
+				</div>
+			</div>
+		</body>
+		<div id="footer">Copyright @ Optic Solutions 2013. All rights reserved.
+		</div>
+	</div>
+</html>

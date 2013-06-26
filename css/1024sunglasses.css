@@ -389,14 +389,13 @@ a:hover {
 	}
 	
 .cost {
-	position:float;
-	left:50%;
-	text-align:center;
+	position:relative;
+	left:300px;
 	}
 	
 .payment-form {
-	position:absolute;
-	left:50%;
+	position:relative;
+	left:300px;
 	}
 	
 .field {
